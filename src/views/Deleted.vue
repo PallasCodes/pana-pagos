@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <PaymentsList url="/payments" mode="normal" />
+  <div class="deleted">
+    <PaymentsList url="/payments/deleted" mode="deleted" />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import PaymentsList from '@/components/PaymentsList.vue'
 
 export default {
-  name: "Home",
+  name: "Deleted",
   components: {
     PaymentsList
   }, 
